@@ -1,6 +1,6 @@
 {
-  "name": "my_portfolio",
-  "homepage": "https://DimaMaslo88.github.io/my_portfolio",
+  "name": "portfolio",
+  "homepage": "https://DimaMaslo88.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
