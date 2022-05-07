@@ -1,0 +1,11 @@
+.nav{
+
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.general{
+    text-decoration: none;
+}

@@ -1,0 +1,66 @@
+@import "../../common/styles/sass/variables";
+@import "../../common/styles/sass/mixins";
+.myWork {
+  width: 250px;
+  background-color: #131212;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .icon {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    background-color: #484646;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    &::before {
+      position: absolute;
+      content: "";
+      background-color: black;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.4;
+    }
+    .button {
+      position: relative;
+      background-color: black;
+      font-family: 'Patrick Hand', cursive;
+      color: $textColor;
+      font-size: 20px;
+    }
+  }
+
+
+
+  .myWorkInfo {
+    padding: 5px 5px;
+
+    .title {
+
+
+      @include text($titleFontFamily,18px)
+    }
+
+    .description {
+      @include text($textFontFamily,16px);
+      text-align: center;
+
+    }
+
+  }
+}
+
+
+
+
+
+
+
+

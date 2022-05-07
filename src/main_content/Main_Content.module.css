@@ -1,0 +1,17 @@
+.mainBlock {
+    height: 100vh;
+    background-color: #272727;
+
+
+}
+
+.presentation {
+    width: 300px;
+    background-color: #aff1ee;
+}
+
+.foto {
+    width: 300px;
+    height: 400px;
+    background-color: #aff1ee;
+}

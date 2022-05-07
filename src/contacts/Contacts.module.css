@@ -1,0 +1,15 @@
+.header{
+    background-color: #8ff5d2;
+    height: 80vh;
+
+
+}
+.contactContainer{
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.title{
+
+
+}

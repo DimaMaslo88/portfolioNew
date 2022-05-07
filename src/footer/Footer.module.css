@@ -1,0 +1,19 @@
+.header{
+    background-color: #f1a4b3;
+    height: 40vh;
+}
+.footerContainer{
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.title{
+
+}
+.footer{
+
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
