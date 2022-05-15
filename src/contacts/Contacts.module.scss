@@ -1,0 +1,14 @@
+@import "../common/styles/sass/variables";
+
+
+
+.header{
+    background-color: $bgColor;
+    height: 80vh;
+    .contactContainer{
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+}

@@ -1,0 +1,21 @@
+@import  "../common/styles/sass/variables";
+
+
+.header {
+  background-color: $bgColor;
+  min-height: 20vh;
+
+  .remoteWorkContainer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .button {
+    border-radius: 4px;
+    background-color: $buttonColor;
+    font-size: large;
+
+  }
+
+}

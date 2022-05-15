@@ -1,0 +1,49 @@
+@import "../../common/styles/sass/variables";
+.contact{
+    width: 250px;
+    height:250px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .formArea{
+        display: flex;
+
+        width: 250px;
+        height:250px;
+        flex-direction:column;
+        align-items: center;
+        justify-content: space-around;
+        .form{
+            width: 100%;
+
+        }
+        .in1{
+            width: 100%
+        }
+        .in2{
+            width: 100%
+        }
+        @media screen  and (max-width: 384px) {
+            .form{
+                width: 60%
+            }
+            .in1{
+                width: 60%
+            }
+            .in2{
+                width: 60%
+            }
+        }
+    }
+    .button{
+        border-radius: 4px;
+        background-color: $buttonColor;
+        font-size: large;
+
+    }
+}
+
+
+
+
