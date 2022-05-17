@@ -1,0 +1,32 @@
+@import "../common/styles/sass/variables";
+
+
+.header {
+    min-height: 100vh;
+    background-color:$bgColor;
+    .skillsContainer {
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+
+    }
+    .skills {
+
+
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    @media screen and (max-width: 642px){
+        .skills{
+            justify-content: center;
+        }
+    }
+}
+
+
+
+
+
+

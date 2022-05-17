@@ -1,19 +1,21 @@
 import React from 'react';
-import style from './Main_Content.module.css'
+import style from './Main_Content.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
+
+
 export const MainContent = () => {
     return (
 
         <div className={style.mainBlock}>
             <div className={styleContainer.container}>
-            <div className={style.presentation}>
+                <div className={style.presentation}>
 
-                <span>Hi Friends</span>
-                <h1>I`m Dmitry Maslo</h1>
-                <p>React/Redux Frontend developer</p>
+                    <span className={style.span}>Hi Friends</span>
+                    <h2 className={style.h2}>{"I`m Dmitry Maslo"}</h2>
+                    <p className={style.p}>React/Redux Frontend developer</p>
 
 
-            </div>
+                </div>
 
                 <div className={style.foto}></div>
             </div>
