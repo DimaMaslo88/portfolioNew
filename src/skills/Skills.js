@@ -8,8 +8,6 @@ import {faAtom} from "@fortawesome/free-solid-svg-icons/faAtom";
 import {faCss3} from "@fortawesome/free-brands-svg-icons/faCss3";
 import {faServer} from "@fortawesome/free-solid-svg-icons/faServer";
 import {faGit} from "@fortawesome/free-brands-svg-icons/faGit";
-import {faArrowRightFromBracket} from "@fortawesome/free-solid-svg-icons/faArrowRightFromBracket";
-import {faRightFromBracket} from "@fortawesome/free-solid-svg-icons/faRightFromBracket";
 import {faLaptop} from "@fortawesome/free-solid-svg-icons/faLaptop";
 
 

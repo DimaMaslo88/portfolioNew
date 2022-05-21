@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Main_Content.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
-
+import me from "../images/new.jpg"
 
 export const MainContent = () => {
     return (
@@ -17,7 +17,9 @@ export const MainContent = () => {
 
                 </div>
 
-                <div className={style.foto}></div>
+                <div >
+                    <img src={me} className={style.ava}/>
+                </div>
             </div>
 
         </div>
