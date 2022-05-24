@@ -23,43 +23,43 @@ export const Skills = () => {
                     <Skill
                         icon={faJs}
                         title={'JS'}
-                        description={'In the process of studying'}
+                        description={'in the process of studying'}
                     />
                     <Skill
                         icon={faCss3}
                         title={'CSS'}
-                        description={'Good knowledges'}
+                        description={'css and cass styles'}
                     />
                     <Skill
                         icon={faAtom}
                         title={'React'}
-                        description={'Working with React-Redux.Deploy progress into GitHub Page '}
+                        description={'working with React-Redux.Deploy progress into GitHub Page '}
                     />
 
                     <Skill
                         icon={faServer}
                         title={'Rest-API'}
-                        description={'Handling server requests'}
+                        description={'handling server requests'}
                     />
                     <Skill
                         icon={faGit}
                         title={'GitHub'}
-                        description={'Ability to work with git,uploading projects...'}
+                        description={'ability to work with git,uploading projects...'}
                     />
                     <Skill
                         icon={faHtml5}
                         title={'HTML'}
-                        description={'All projects are written in typescript'}
+                        description={'knowledge in HTML5 '}
                     />
                     <Skill
                         icon={faComputer}
                         title={'Thunk'}
-                        description={'All projects are written in typescript'}
+                        description={'server requests using Thunk and ThunkCreator'}
                     />
                     <Skill
                         icon={faLaptop}
                         title={'TypeScript'}
-                        description={'All projects are written in typescript'}
+                        description={'all projects are written in typescript'}
                     />
 
 
