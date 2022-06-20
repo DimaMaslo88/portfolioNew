@@ -16,14 +16,30 @@ export const Footer = () => {
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
                 < Title title={"Maslo Dmitry"}/>
                 <div className={style.footer}>
-                    <Block icon={faAt}/>
-                    <Block icon={faTelegram}/>
-                    <Block icon={faInstagram} />
+                    <div>
+                        <a href={''}>
+                            <Block icon={faAt}/>
+                        </a>
+                    </div>
+                    <div>
+                        <a href={''}>
+                            <Block icon={faTelegram}/>
+                        </a>
+                    </div>
+                    <div>
+                        <a href={''}>
+                    <Block icon={faInstagram}/>
+                        </a>
+                    </div>
+                    <div>
+                        <a href={''}>
                     <Block icon={faViber}/>
+                        </a>
+                    </div>
                 </div>
-                <h3 className={style.ending}>   © 2022 all rights reserved</h3>
+                <h3 className={style.ending}> © 2022 all rights reserved</h3>
             </div>
-            
+
         </div>
     );
 };

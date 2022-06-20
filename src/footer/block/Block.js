@@ -4,7 +4,8 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 export const Block = (props) => {
     return (
         <div className={style.block}>
-          <FontAwesomeIcon icon={props.icon} size="5x"  className={style.icon} />
+
+          <FontAwesomeIcon icon={props.icon} size="5x"  className={style.icon} a href={'www.google.com'}/>
 
         </div>
     );
