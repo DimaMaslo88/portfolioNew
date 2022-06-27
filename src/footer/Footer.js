@@ -2,19 +2,18 @@ import React from 'react';
 import style from './Footer.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
 import {Block} from "./block/Block";
-import {Title} from "../common/components/title/Title";
-
 
 import {faAt} from "@fortawesome/free-solid-svg-icons/faAt";
 import {faTelegram} from "@fortawesome/free-brands-svg-icons/faTelegram";
 import {faInstagram} from "@fortawesome/free-brands-svg-icons/faInstagram";
-import {faViber} from "@fortawesome/free-brands-svg-icons/faViber";
+
+import {faGithub} from "@fortawesome/free-brands-svg-icons/faGithub";
 
 export const Footer = () => {
     return (
         <div className={style.header}>
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
-                < Title title={"Maslo Dmitry"}/>
+                < psTitle title={"Maslo Dmitry"}/>
                 <div className={style.footer}>
                     <div>
                         <a href={''}>
@@ -22,18 +21,18 @@ export const Footer = () => {
                         </a>
                     </div>
                     <div>
-                        <a href={''}>
+                        <a href={'https://t.me/DmitrijMaslo'}>
                             <Block icon={faTelegram}/>
                         </a>
                     </div>
                     <div>
-                        <a href={''}>
-                    <Block icon={faInstagram}/>
+                        <a href={'https://instagram.com/dimamaslo_1988'}>
+                            <Block icon={faInstagram}/>
                         </a>
                     </div>
                     <div>
-                        <a href={''}>
-                    <Block icon={faViber}/>
+                        <a href={'https://github.com/DimaMaslo88'}>
+                            <Block icon={faGithub}/>
                         </a>
                     </div>
                 </div>
