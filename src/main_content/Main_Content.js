@@ -17,8 +17,9 @@ export const MainContent = () => {
 
                 </div>
 
-                <div >
-                    <img src={me} className={style.ava}/>
+                <div className={style.foto}>
+                    <div className={style.ava}>
+                    </div>
                 </div>
             </div>
 
