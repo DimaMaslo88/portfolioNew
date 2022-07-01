@@ -1,12 +1,19 @@
 import React from 'react';
 import style from './Main_Content.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
-import me from "../images/new.jpg"
+// import {Parallax,Background} from "react-parallax/@types/index";
+import Fade from 'react-reveal/Fade'
 
 export const MainContent = () => {
     return (
 
         <div className={style.mainBlock}>
+            {/*<Parallax strength={300}>*/}
+            {/*    <Background className="custom-bg">*/}
+            {/*        <img src="http://www.fillmurray.com/500/320" alt="fill murray" />*/}
+            {/*    </Background>*/}
+            {/*</Parallax>*/}
+            <Fade bottom>
             <div className={styleContainer.container}>
                 <div className={style.presentation}>
 
@@ -22,7 +29,7 @@ export const MainContent = () => {
                     </div>
                 </div>
             </div>
-
+            </Fade>
         </div>
     );
 };

@@ -2,7 +2,6 @@ import React from 'react';
 import style from './Footer.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
 import {Block} from "./block/Block";
-
 import {faAt} from "@fortawesome/free-solid-svg-icons/faAt";
 import {faTelegram} from "@fortawesome/free-brands-svg-icons/faTelegram";
 import {faInstagram} from "@fortawesome/free-brands-svg-icons/faInstagram";
