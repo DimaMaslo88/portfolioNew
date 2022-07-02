@@ -5,7 +5,7 @@ import {MyWork} from "./my_work/MyWork";
 import imageSocial from '../images/sotial.jpg'
 import imageTodolist from '../images/to-do-list-apps.png'
 import {Title} from "../common/components/title/Title";
-
+import Slide from 'react-reveal/Slide';
 export const MyWorks = () => {
     const social={
         backgroundImage: `url(${imageSocial})`
@@ -19,6 +19,7 @@ export const MyWorks = () => {
 
     return (
         <div className={style.header}>
+            <Slide left>
             <div className={`${style.MyWorkContainer} ${styleContainer.container}`}>
            <Title title="My Works "/>
                 <div className={style.myWorks}>
@@ -35,6 +36,7 @@ export const MyWorks = () => {
 
                 </div>
             </div>
+            </Slide>
         </div>
     );
 };

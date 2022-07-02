@@ -11,11 +11,12 @@ import {faGit} from "@fortawesome/free-brands-svg-icons/faGit";
 import {faLaptop} from "@fortawesome/free-solid-svg-icons/faLaptop";
 import {faHtml5} from "@fortawesome/free-brands-svg-icons/faHtml5";
 import {faComputer} from "@fortawesome/free-solid-svg-icons/faComputer";
-
+import Fade from 'react-reveal/Fade'
 
 export const Skills = () => {
     return (
         <div className={style.header}>
+            <Fade bottom>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <Title title="Skills"/>
                 <div className={style.skills}>
@@ -67,7 +68,7 @@ export const Skills = () => {
 
 
             </div>
-
+            </Fade>
         </div>
     );
 };
