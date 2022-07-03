@@ -7,7 +7,7 @@ import Tilt from 'react-tilt'
 export const MainContent = () => {
     return (
 
-        <div className={style.mainBlock}>
+        <div id='main' className={style.mainBlock}>
 
 
             <div className={styleContainer.container}>

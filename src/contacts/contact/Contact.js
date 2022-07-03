@@ -7,13 +7,14 @@ export const Contact = () => {
         <div className={style.contact}>
 
 
-                <form className={style.formArea}>
-                    <input className={style.in1} placeholder={"Enter your name"}/>
-                    <input className={style.in2} placeholder={'Enter your e-mail'}/>
-                    <textarea className={style.form} placeholder={'Enter message'}/>
-                    <Button title={'Send'}/>
-                </form>
+            <form className={style.formArea}>
 
+                <input className={style.in1} placeholder={"Enter your name"}/>
+                <input className={style.in2} placeholder={'Enter your e-mail'}/>
+                <textarea className={style.form} placeholder={'Enter message'}/>
+
+            </form>
+            <Button title={'Send'}/>
 
         </div>
     );

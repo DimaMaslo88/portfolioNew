@@ -18,7 +18,7 @@ export const MyWorks = () => {
 
 
     return (
-        <div className={style.header}>
+        <div id='myWork' className={style.header}>
             <Slide left>
             <div className={`${style.MyWorkContainer} ${styleContainer.container}`}>
            <Title title="My Works "/>
