@@ -15,5 +15,7 @@ cursor: grab;
     .active{
         color: red;
     }
-
+@media screen and (max-width: 300px){
+    display: none;
+}
 }

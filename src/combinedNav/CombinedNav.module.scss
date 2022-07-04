@@ -1,0 +1,46 @@
+@import "../common/styles/sass/variables";
+
+.combinedNav {
+
+  width: 260px;
+
+  position: relative;
+
+  .combinedNavItem {
+   display: none;
+
+    font-family: $textFontFamily;
+    color: $bgColor2;
+
+
+  }
+
+  &:hover {
+    cursor: grab;
+
+  }
+
+  .active {
+    color: red;
+  }
+  .show{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    flex-direction: column;
+  }
+
+  .button {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    right: 60px;
+    border-radius: 3px;
+    background-color: $bgColor2;
+  }
+
+  @media screen and (min-width: 300px) {
+    display: none;
+  }
+}
