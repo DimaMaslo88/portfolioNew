@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Nav.module.scss'
-import {NavLink} from "react-router-dom";
-import {Link, animateScroll as scroll} from "react-scroll";
+
+import {Link} from "react-scroll";
 
 export const Nav = () => {
     return (

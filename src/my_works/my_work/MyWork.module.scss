@@ -6,7 +6,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  filter: blur(1px);
+  &:hover{
+    filter: blur(0px);
+  }
   .icon {
     display: flex;
     width: 250px;
@@ -18,6 +21,7 @@
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
+
     &::before {
       position: absolute;
       content: "";

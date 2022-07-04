@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import style from './CombinedNav.module.scss'
 
-import {Link, animateScroll as scroll} from "react-scroll";
+import {Link} from "react-scroll";
 
 export const CombinedNav = () => {
     const [active,setActive]=useState(false)
