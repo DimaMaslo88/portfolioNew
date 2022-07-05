@@ -1,26 +1,30 @@
 @import "../common/styles/sass/variables";
 
 
-.header{
-    background-color:$buttonColor;
-    height: 40vh;
-    .footerContainer{
-        align-items: center;
-        flex-direction: column;
-        justify-content: flex-start;
-        .footer{
+.header {
+  background-color: $buttonColor;
+  height: auto;
 
-            width: 250px;
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            padding: 30px;
+  .footerContainer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
 
-        }
-        .ending{
-            color: white;
-        }
+    .footer {
+      position: relative;
+      width: 250px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 30px;
+
     }
+
+    .ending {
+      color: white;
+    }
+  }
+
 }
 
 

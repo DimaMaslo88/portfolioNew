@@ -40,7 +40,7 @@ export const MyWorks = () => {
                                 description={'educational/group project in IT-inkubator'}
                                 style={trainingCards}
                                 route='https://DimaMaslo88.github.io/learn_cards'/>
-                        />
+
 
 
                     </div>
