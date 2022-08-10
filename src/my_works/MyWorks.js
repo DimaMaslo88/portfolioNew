@@ -35,11 +35,13 @@ export const MyWorks = () => {
                         <MyWork title={'Todolist'}
                                 description={'educational project in IT-inkubator'}
                                 style={todolist}
+                                route='https://DimaMaslo88.github.io/todolist'
                         />
                         <MyWork title={'LearnCards'}
                                 description={'educational/group project in IT-inkubator'}
                                 style={trainingCards}
-                                route='https://DimaMaslo88.github.io/learn_cards'/>
+                                route='https://DimaMaslo88.github.io/learn_cards'
+                        />
 
 
 
