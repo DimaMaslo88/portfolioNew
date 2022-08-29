@@ -16,7 +16,7 @@ export const Footer = () => {
                     < psTitle title={"Maslo Dmitry"}/>
                     <div className={style.footer}>
                         <div>
-                            <a href={'https://www.https://www.linkedin.com/in/dmitrij-maslo-488b6323a/'}>
+                            <a href={'https://www.linkedin.com/in/dmitrij-maslo-488b6323a/'}>
                                 <Block icon={faLinkedin}/>
                             </a>
                         </div>
