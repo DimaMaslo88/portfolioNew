@@ -30,10 +30,7 @@ export const Nav = () => {
                 offset={0}
                 duration={500}
             >Projects</Link>
-            {/*<a href='/main' >Main</a>*/}
-            {/*<a href='#skills' >Skills</a>*/}
-            {/*<a href='#myWork'>Projects</a>*/}
-            {/*<a href='#contacts' className={style.general}>Contacts</a>*/}
+
             <Link
                 activeClass={style.active}
                 to="contacts"

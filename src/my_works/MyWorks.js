@@ -5,10 +5,17 @@ import {MyWork} from "./my_work/MyWork";
 import imageSocial from '../images/sotial.jpg'
 import imageTodolist from '../images/to-do-list-apps.png'
 import imageLearnCards from '../images/learnCard.jpg'
+import imageHacker from '../images/hackerNews.jpg'
 import {Title} from "../common/components/title/Title";
 import Slide from 'react-reveal/Slide';
 
 export const MyWorks = () => {
+    const searchPost={
+        backgroundImage:`url(${imageHacker})`
+    }
+    const testTask={
+        backgroundImage:`url(${imageHacker})`
+    }
     const social = {
         backgroundImage: `url(${imageSocial})`
     };
@@ -27,6 +34,18 @@ export const MyWorks = () => {
                 <div className={`${style.MyWorkContainer} ${styleContainer.container}`}>
                     <Title title="My Works "/>
                     <div className={style.myWorks}>
+                        <MyWork title={'Post Search Page'}
+                                description={'Job placement tests with Rest-API,React,Redux,SCSS '}
+                                style={testTask}
+                                route = 'https://dimamaslo88.github.io/test-sector-bisneca/'
+
+                        />
+                        <MyWork title={'Hacker News '}
+                                description={'Job placement tests with Rest-API,React,Redux '}
+                                style={testTask}
+                                route = 'https://dimamaslo88.github.io/test_Hacker_News_Project/'
+
+                        />
                         <MyWork title={'Social Network'}
                                 description={'social network written with react/redux'}
                                 style={social}
