@@ -6,12 +6,17 @@ import imageSocial from '../images/sotial.jpg'
 import imageTodolist from '../images/to-do-list-apps.png'
 import imageLearnCards from '../images/learnCard.jpg'
 import imageHacker from '../images/hackerNews.jpg'
+import imageSearchPosts from '../images/avtomaticheskaya-ochistka-istorii-poiska-instagram-1-265x198.jpg'
+import imageCrm from '../images/crm.jpeg'
 import {Title} from "../common/components/title/Title";
 import Slide from 'react-reveal/Slide';
 
 export const MyWorks = () => {
     const searchPost={
-        backgroundImage:`url(${imageHacker})`
+        backgroundImage:`url(${imageSearchPosts})`
+    }
+    const pageCrm={
+        backgroundImage:`url(${imageCrm})`
     }
     const testTask={
         backgroundImage:`url(${imageHacker})`
@@ -34,9 +39,14 @@ export const MyWorks = () => {
                 <div className={`${style.MyWorkContainer} ${styleContainer.container}`}>
                     <Title title="My Works "/>
                     <div className={style.myWorks}>
+                        <MyWork title={'Project CRM'}
+                                description={'Test task with Rest-API,React,Redux,SCSS '}
+                                style={pageCrm}
+                                route = 'https://dimamaslo88.github.io/test_project_crm/'
+                        />
                         <MyWork title={'Post Search Page'}
                                 description={'Job placement tests with Rest-API,React,Redux,SCSS '}
-                                style={testTask}
+                                style={searchPost}
                                 route = 'https://dimamaslo88.github.io/test-sector-bisneca/'
 
                         />
