@@ -8,6 +8,7 @@ import imageLearnCards from '../images/learnCard.jpg'
 import imageHacker from '../images/hackerNews.jpg'
 import imageSearchPosts from '../images/avtomaticheskaya-ochistka-istorii-poiska-instagram-1-265x198.jpg'
 import imageCrm from '../images/crm.jpeg'
+import imageSport from '../images/sports.jpg'
 import {Title} from "../common/components/title/Title";
 import Slide from 'react-reveal/Slide';
 
@@ -32,13 +33,21 @@ export const MyWorks = () => {
         backgroundImage: `url(${imageLearnCards})`
     }
 
-
+const sportCard ={
+    backgroundImage: `url(${imageSport})`
+}
     return (
         <div id='myWork' className={style.header}>
             <Slide left>
                 <div className={`${style.MyWorkContainer} ${styleContainer.container}`}>
                     <Title title="My Works "/>
                     <div className={style.myWorks}>
+                        <MyWork title={'Sports Integrator'}
+                                description={'Сommercial project for booking gyms and events'}
+                                style={sportCard}
+                                route = 'https://sporder.by/'
+                        />
+
                         <MyWork title={'Project CRM'}
                                 description={'Test task with Rest-API,React,Redux,SCSS '}
                                 style={pageCrm}
